@@ -1,0 +1,9 @@
+Timing-Allow-Origin: *, *
+Via: cache5.cn830[60,0]
+Location: https://detailskip.taobao.com/service/getData/1/p1/item/detail/sib.htm?itemId=560129744052&modules=dynStock,qrcode,viewer,price,duty,xmpPromotion,delivery,activity,fqg,zjys,couponActivity,soldQuantity,originalPrice,tradeContract&callback=onSibRequestSuccess
+Eagleeye-Traceid: b7d6a69915110794988528507e
+Eagleid: b7d6a69915110794988528507e
+Server: Tengine
+Date: Sun, 19 Nov 2017 08:18:18 GMT
+Vary: lang
+Content-Type: text/html

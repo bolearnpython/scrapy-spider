@@ -1,0 +1,9 @@
+Connection: keep-alive
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: zh-CN,zh;q=0.8,en-US;q=0.6,en;q=0.4,ja;q=0.2
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:16.0) Gecko/20121026 Firefox/16.0
+Cache-Control: max-age=0
+Accept-Encoding: gzip, deflate, sdch
+Cookie: pdftv1=9a15e|16275dac3f8|332a|b7d6b7d4|e
+Referer: http://www.panda.tv/ajax_sort?classification=finance&pagenum=120&pageno=1
