@@ -1,0 +1,7 @@
+Accept-Language: zh-CN,zh;q=0.8,ko;q=0.6
+Accept: application/json, text/javascript, */*; q=0.01
+Connection: keep-alive
+Referer: https://so.dajie.com/job/search?positionFunction=130110&positionName=%E7%94%A8%E6%88%B7%E7%A0%94%E7%A9%B6
+Accept-Encoding: gzip, deflate, sdch
+Cookie: SO_COOKIE_V2=9851u4avxrFPFLTTjV21No5XkRkhzugTE3k/cfLDZW2412TfaKMJVGerjyZ/AGu0C3bBcHNFpWMf0Ro9WwhKS/tMoaA/xpn7TvzV; DJ_UVID=MTUyMjM5MzIzODExMDAwMjk1; DJ_RF=https%3A%2F%2Fjob.dajie.com%2F; DJ_EU=http%3A%2F%2Fso.dajie.com%2Fjob%2Fsearch%3FpositionFunction%3D130110%26positionName%3D%25E7%2594%25A8%25E6%2588%25B7%25E7%25A0%2594%25E7%25A9%25B6
+User-Agent: Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Avant Browser)

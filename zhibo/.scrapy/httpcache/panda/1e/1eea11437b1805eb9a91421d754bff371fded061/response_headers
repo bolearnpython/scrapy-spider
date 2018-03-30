@@ -1,0 +1,9 @@
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Origin: http://www.panda.tv
+Content-Type: application/json;charset=UTF-8
+Server: nginx
+Date: Fri, 30 Mar 2018 07:41:39 GMT
+Access-Control-Allow-Methods: GET, POST, OPTIONS
+X-Content-Type-Options: nosniff
+X-Request-Id: 1522395699577-297101101-22385-2d21d33996b3122a
+Access-Control-Allow-Credentials: true

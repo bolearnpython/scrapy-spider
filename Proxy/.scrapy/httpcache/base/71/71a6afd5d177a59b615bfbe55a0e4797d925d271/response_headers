@@ -1,0 +1,14 @@
+X-Request-Id: 68109da4-e491-4dc6-98ad-ad507606114d
+X-Powered-By: Phusion Passenger 5.0.28
+Content-Type: text/html; charset=utf-8
+Set-Cookie: _ip84_session=U2JXeXFBVlYyMHVqTllpUmxyYXhCTFdJL1Y2TmI5UTVZZnIzNGUxM3lxSHBBTzJ2Qnl5bFg5U3pBbWVlaVdKdGsxZkY0QXNqY0NDTk52NkgyYWRQK05uL2hPbWhudGpEbEs1VkpabHR2QUFacW1DbkVBWTV1SWhwWUZKL1NmMThBcmJmRTVEMFMxV0lXWEIyWVlmaWlnPT0tLWdvRjcxMGZGQXJBdWJmaVlGQUR6MGc9PQ%3D%3D--3392bb8101ce13317261d2255a61dd168e16a344; path=/; HttpOnly
+Date: Fri, 21 Jul 2017 09:25:12 GMT
+Server: nginx/1.1.19
+Cache-Control: max-age=0, private, must-revalidate
+X-Frame-Options: SAMEORIGIN
+Etag: "ad60d7274f0ebf405b8bfc017f6a2315"
+X-Content-Type-Options: nosniff
+X-Runtime: 0.006071
+Status: 200 OK
+X-Xss-Protection: 1; mode=block
+Content-Encoding: gzip
