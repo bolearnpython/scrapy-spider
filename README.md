@@ -8,3 +8,4 @@
 ###  toutiao  头条
 ###  zhihu    知乎用户信息
 ### templates 模板
+###  sina     新浪
