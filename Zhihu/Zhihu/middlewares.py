@@ -25,19 +25,3 @@ class UserAgentMiddleware_pc(object):
     def process_request(self, request, spider):
         request.headers[
             "User-Agent"] = make_random_useragent(ua_type='pc')  #
-
-
-class UserAgentMiddleware_phone(object):
-    """ 换User-Agent """
-
-    def process_request(self, request, spider):
-        request.headers[
-            "User-Agent"] = make_random_useragent(ua_type='phone')
-
-
-class UserAgentMiddleware_all(object):
-    """ 换User-Agent """
-
-    def process_request(self, request, spider):
-        request.headers[
-            "User-Agent"] = make_random_useragent()

@@ -25,43 +25,6 @@ class ZhipinItem(scrapy.Item):
     people_num = scrapy.Field()
 
 
-class LiepinItem(scrapy.Item):
-    time = scrapy.Field()
-    re_time = scrapy.Field()
-    job = scrapy.Field()
-    edu = scrapy.Field()
-    aera = scrapy.Field()
-    work_year = scrapy.Field()
-    job_link = scrapy.Field()
-    salary = scrapy.Field()
-    company_name = scrapy.Field()
-    company_link = scrapy.Field()
-    industry = scrapy.Field()
-    tags = scrapy.Field()
-
-
-class LagouItem(scrapy.Item):
-    # define the fields for your item here like:
-    city = scrapy.Field()
-    companyFullName = scrapy.Field()
-    companyLabelList = scrapy.Field()
-    companyLogo = scrapy.Field()
-    companyShortName = scrapy.Field()
-    companySize = scrapy.Field()
-    createTime = scrapy.Field()
-    education = scrapy.Field()
-    positionId = scrapy.Field()
-    financeStage = scrapy.Field()
-    firstType = scrapy.Field()
-    industryField = scrapy.Field()
-    jobNature = scrapy.Field()
-    positionAdvantage = scrapy.Field()
-    positionName = scrapy.Field()
-    salary = scrapy.Field()
-    secondType = scrapy.Field()
-    workYear = scrapy.Field()
-
-
 class DajieItem(scrapy.Item):
     # define the fields for your item here like:
     # name

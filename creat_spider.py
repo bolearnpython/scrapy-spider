@@ -25,8 +25,8 @@ def creat_spider(templ, project_name, spider_names):
             spider_name=spider_name, templ=templ, now_path=now_path)
         os.system(creat_spider)
 if __name__ == '__main__':
-    project_name = 'Tianyancha'  # 首字母大写
-    spider_names = ['tianyancha']
-    is_crawl = False
+    project_name = 'Test'  # 首字母大写
+    spider_names = ['test']
+    is_crawl = True
     templ = 'crawl'if is_crawl else'basic'
     creat_spider(templ, project_name, spider_names)

@@ -1,4 +1,10 @@
 # scrapy-spider
-###  zhibo   各大网站直播爬虫
-###  zhaopin （拉钩，boss，猎聘 ）招聘
-###  fan     （58 安居客，赶集，链家）租房，新房 二手
+###  jd       京东评论
+###  zhaopin  招聘网站
+###  book     豆瓣书籍
+###  jiandan  煎蛋
+###  dianying 电影
+###  dangdang 当当
+###  toutiao  头条
+###  zhihu    知乎用户信息
+### templates 模板

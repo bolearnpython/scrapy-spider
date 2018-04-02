@@ -3,6 +3,7 @@
 from Jd.items import JdItem, Item_Detail
 from scrapy import Request, Spider
 from scrapy.loader import ItemLoader
+from scrapy.loader.processors import SelectJmes
 import json
 from furl import furl
 
@@ -21,12 +22,6 @@ class JdSpider(Spider):
         yield Request(url_item, meta={'id': ID}, callback=self.parse_item)
         yield Request(url_comments, callback=self.parse_comments,
                       meta={'page': 2, 'id': ID})
-
-    def parse(self, response):
-        from scrapy.shell import inspect_response
-        inspect_response(response, self)
-        # url =
-        # yield Request(url, callback=self.parse_item)
 
     def parse_item(self, response):
         _id = response.meta['id']

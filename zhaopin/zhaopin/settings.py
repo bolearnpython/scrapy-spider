@@ -14,13 +14,14 @@ BOT_NAME = 'zhaopin'
 SPIDER_MODULES = ['zhaopin.spiders']
 NEWSPIDER_MODULE = 'zhaopin.spiders'
 
-HTTPERROR_ALLOWED_CODES = [403,302]
-# Crawl responsibly by identifying yourself (and your website) on the user-agent
+HTTPERROR_ALLOWED_CODES = [403, 302]
+# Crawl responsibly by identifying yourself (and your website) on the
+# user-agent
 USER_AGENT = 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.1; Avant Browser)'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
-LOG_ENABLED=True
-LOG_FILE='log'
+# LOG_ENABLED = True
+# LOG_FILE = 'log'
 # LOG_LEVEL='INFO'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
@@ -41,34 +42,34 @@ LOG_FILE='log'
 
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
-	'Accept':'application/json, text/javascript, */*; q=0.01',
-	'Accept-Encoding':'gzip, deflate, sdch',
-	'Accept-Language':'zh-CN,zh;q=0.8,ko;q=0.6',
-	'Connection':'keep-alive',
+    'Accept': 'application/json, text/javascript, */*; q=0.01',
+    'Accept-Encoding': 'gzip, deflate, sdch',
+    'Accept-Language': 'zh-CN,zh;q=0.8,ko;q=0.6',
+    'Connection': 'keep-alive',
 }
 
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
-#SPIDER_MIDDLEWARES = {
-#    'zhaopin.middlewares.ZhaopinSpiderMiddleware': 543,
-#}
+SPIDER_MIDDLEWARES = {
+    'zhaopin.middlewares.Referer': 702
+}
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-#DOWNLOADER_MIDDLEWARES = {
-#    'zhaopin.middlewares.MyCustomDownloaderMiddleware': 543,
-#}
+# DOWNLOADER_MIDDLEWARES = {
+#     'zhaopin.middlewares.Referer': 543,
+# }
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html
-#EXTENSIONS = {
+# EXTENSIONS = {
 #    'scrapy.extensions.telnet.TelnetConsole': None,
 #}
 
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-   'zhaopin.pipelines.ZhaopinPipeline': 300,
+    'zhaopin.pipelines.ZhaopinPipeline': 300,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -85,9 +86,10 @@ ITEM_PIPELINES = {
 #AUTOTHROTTLE_DEBUG = False
 
 # Enable and configure HTTP caching (disabled by default)
-# See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
-HTTPCACHE_ENABLED = True
-HTTPCACHE_EXPIRATION_SECS = 0
-HTTPCACHE_DIR = 'httpcache'
-HTTPCACHE_IGNORE_HTTP_CODES = []
-HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+# See
+# http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
+# HTTPCACHE_ENABLED = True
+# HTTPCACHE_EXPIRATION_SECS = 0
+# HTTPCACHE_DIR = 'httpcache'
+# HTTPCACHE_IGNORE_HTTP_CODES = []
+# HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
